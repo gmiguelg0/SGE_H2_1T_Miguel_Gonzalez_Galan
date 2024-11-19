@@ -70,7 +70,7 @@ connection = pymysql.connect(
     database="ENCUESTAS",
     cursorclass=pymysql.cursors.DictCursor
 )
-4. **Ejecución de la Aplicación**:
+## Ejecución de la Aplicación
 Abre una terminal en el directorio del proyecto.
 
 Ejecuta el archivo app.py:
@@ -79,7 +79,7 @@ Ejecuta el archivo app.py:
 python app.py
 La interfaz gráfica se abrirá automáticamente.
 
-5. **Uso**:
+## Uso:
 1. Operaciones CRUD
 Añadir Encuesta: Haz clic en "Añadir Encuesta", completa el formulario y guarda los datos.
 Actualizar Encuesta: Selecciona una encuesta de la tabla, haz clic en "Actualizar Encuesta", edita los datos y guárdalos.
