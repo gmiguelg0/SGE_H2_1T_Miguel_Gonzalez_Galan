@@ -39,7 +39,7 @@ Asegúrate de contar con lo siguiente en tu entorno:
    ```bash
    pip install pymysql matplotlib pandas
    
-Configuración de la Base de Datos MySQL
+3. **Configuración de la Base de Datos MySQL**:
 Crear la base de datos y la tabla: Conéctate a tu servidor MySQL y ejecuta los siguientes comandos para crear la base de datos y la tabla necesaria:
 
 CREATE DATABASE ENCUESTAS;
@@ -70,7 +70,7 @@ connection = pymysql.connect(
     database="ENCUESTAS",
     cursorclass=pymysql.cursors.DictCursor
 )
-Ejecución de la Aplicación
+4. **Ejecución de la Aplicación**:
 Abre una terminal en el directorio del proyecto.
 
 Ejecuta el archivo app.py:
@@ -79,7 +79,7 @@ Ejecuta el archivo app.py:
 python app.py
 La interfaz gráfica se abrirá automáticamente.
 
-Uso
+5. **Uso**:
 1. Operaciones CRUD
 Añadir Encuesta: Haz clic en "Añadir Encuesta", completa el formulario y guarda los datos.
 Actualizar Encuesta: Selecciona una encuesta de la tabla, haz clic en "Actualizar Encuesta", edita los datos y guárdalos.
